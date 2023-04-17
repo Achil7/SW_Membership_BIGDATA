@@ -1,1 +1,1 @@
-# SW_Membership_BIGDATA
+디엠씨코넷_SW기업멤버십_빅데이터과정교육
