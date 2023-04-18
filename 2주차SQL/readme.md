@@ -1,7 +1,7 @@
 MYSQL 데이터베이스 기초
 <p align="center">
-    <a href="https://orange.biolab.si/download">
-    <img src="https://raw.githubusercontent.com/irgolic/orange3/README-shields/distribute/orange-title.png" alt="Orange Data Mining" height="200">
+    <a href="https://dev.mysql.com/downloads/mysql">
+    <img src="https://pngimg.com/uploads/mysql/mysql_PNG35.png" alt="Orange Data Mining" height="200">
     </a>
 </p>
 <p align="center">
