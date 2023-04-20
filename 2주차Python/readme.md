@@ -78,3 +78,12 @@ False
 >>> (a > b) or True
 True
 ```
+
+# 1. 문자열
+- 특수 문자열
+- 문자열 연산하기
+- 인덱싱(indexing)과 슬라이싱(slicing)
+- 문자열은 immutable
+- 문자열 포맷팅(formatting)
+    1. format 함수를 활용한 포맷팅
+    2. f 문자열 포맷팅
