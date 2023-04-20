@@ -1,4 +1,9 @@
 # 2주차 Python 기초
+<p align="center">
+    <a href="https://www.python.org">
+    <img src="https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/thumb-course-phthon-basic.jpg" alt="Python" height="200">
+    </a>
+</p>
 
 ## 파이썬(Python) 이란?
 1. 인터프리터 방식의 객체지향 프로그래밍 언어
