@@ -1,7 +1,7 @@
 # 2주차 Python 기초
-<p align="center">
+<p align="left">
     <a href="https://www.python.org">
-    <img src="https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/thumb-course-phthon-basic.jpg" alt="Python" height="200">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png" alt="Python" height="100">
     </a>
 </p>
 
