@@ -24,7 +24,7 @@
 **`동적 타이핑(Dynamic Typing) 특징`**
 - `자료의 타입을 일일이 알려줄 필요 없어 코드가 간결해 진다`
 - `반면, 런타임 중 자료형 에러가 날 수 있다`
-- `사용 언어 : Python, Basic, Ruby, PHP, JavaScriptJAVAsCRIPT 등`
+- `사용 언어 : Python, Basic, Ruby, PHP, JavaScript 등`
 
 ### 변수명 규칙
 - 파이썬 변수 선언 규칙
