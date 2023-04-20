@@ -37,3 +37,13 @@
     7. 파이썬 키워드(예약어)는 변수명으로 사용 불가
         - False, None, True, and, as, assert, break, class, continue, def, del, elif , else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
 
+
+### 파이썬의 기본 자료구조
+|    |자료형|저장 모델|변경 가능성|접근 방법|
+|:--:|:----:|:-------:|:---------:|:-------:|
+|수치형|int,float,complex|Literal|Immutable|Direct|
+|문자열|str|Conatiner|Immutable|Sequence|
+|튜플|tuple|Container|Immutable|Sequence|
+|리스트|list|Container|Mutable|Sequence|
+|사전|dict|Container|Mutable|Mapping|
+|집합|set|Container|Mutable|Set|
