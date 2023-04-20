@@ -25,3 +25,15 @@
 - `자료의 타입을 일일이 알려줄 필요 없어 코드가 간결해 진다`
 - `반면, 런타임 중 자료형 에러가 날 수 있다`
 - `사용 언어 : Python, Basic, Ruby, PHP, JavaScriptJAVAsCRIPT 등`
+
+### 변수명 규칙
+- 파이썬 변수 선언 규칙
+    1. 영문자(대, 소문자 구분), 숫자, 언더바 사용가능
+    2. 기타 특수문자 사용 불가
+    3. 중간에 공백이 들어가면 안된다
+    4. 첫 자리에 숫자 불가
+    5. 대문자와 소문자는 구분된다. EX) APPLE과 apple은 서로 다른 변수명
+    6. 변수명 길이에는 제한이 없다
+    7. 파이썬 키워드(예약어)는 변수명으로 사용 불가
+        - False, None, True, and, as, assert, break, class, continue, def, del, elif , else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
+
