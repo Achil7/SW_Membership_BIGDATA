@@ -10,6 +10,8 @@
 #### [2. 문자열 ](#2-문자열)
 #### [3. List ](#3-list)
 #### [4. Tuple ](#4-tuple)
+#### [5. Dictionary ](#5-dictionary)
+#### [6. Set ](#6-set)
 
 # 1. 파이썬(python) 이란?
 1. 인터프리터 방식의 객체지향 프로그래밍 언어
@@ -110,7 +112,6 @@ True
 - 리스트 비교연산
 - 리스트의 수정, 변경과 삭제
 - 리스트 sort() 함수
-
 - append() 와 extend() 함수의 차이
 - pop() 와 remove() 함수의 차이
 
@@ -128,14 +129,39 @@ True
 - 인덱싱 & 슬라이싱
 - 더하기 & 곱하기
 - 튜플안에 튜플
-- 튜플 - 함수
-- 튜플 - 리스트
-
-
-
+- 튜플함수
+    - count(x) : x의 개수
+    - index(x) : x의 위치
+- 튜플-리스트를 이용하여 값 변경
+    1. list()함수로 튜플을 리스트로 변형
+    2. 리스트 값 변경
+    3. tuple()함수로 다시 튜플로 변형
 
 [목차로 돌아가기](#목차)
 
 <br>
 <br>
 <br>
+
+# 5. Dictionary
+- 삽입과 삭제
+- key를 통해 value 얻기
+    - Dic[key] --> value
+- 관련 함수
+    - Dic.keys()    : key 리스트 만들기
+    - Dic.values()  : value 리스트 만들기
+    - Dic.items()   : key, value 쌍 얻기
+    - Dic.clear()   : key: value 쌍 모두 지우기
+    - Dic.get()     : key로 value 얻기
+    - key in Dic    : 해당 key가 있는지 조사하기
+- 딕셔너리 추가, 수정, 병합, 삭제, 조사
+- 리스트와 딕셔너리 비교
+
+[목차로 돌아가기](#목차)
+
+<br>
+<br>
+<br>
+
+# 6. Set
+
