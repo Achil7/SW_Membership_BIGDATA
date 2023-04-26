@@ -130,8 +130,8 @@ True
 - 더하기 & 곱하기
 - 튜플안에 튜플
 - 튜플함수
-    - count(x) : x의 개수
-    - index(x) : x의 위치
+    - `count(x)` : x의 개수
+    - `index(x)` : x의 위치
 - 튜플-리스트를 이용하여 값 변경
     1. list()함수로 튜플을 리스트로 변형
     2. 리스트 값 변경
@@ -144,16 +144,17 @@ True
 <br>
 
 # 5. Dictionary
+- 기본 구조 : `{Key1 : Value1, Key2 : Value2, Key3 : Value3, ...}`
 - 삽입과 삭제
 - key를 통해 value 얻기
-    - Dic[key] --> value
+    - `Dic[key]` --> value
 - 관련 함수
-    - Dic.keys()    : key 리스트 만들기
-    - Dic.values()  : value 리스트 만들기
-    - Dic.items()   : key, value 쌍 얻기
-    - Dic.clear()   : key: value 쌍 모두 지우기
-    - Dic.get()     : key로 value 얻기
-    - key in Dic    : 해당 key가 있는지 조사하기
+    - `Dic.keys()`    : key 리스트 만들기
+    - `Dic.values()`  : value 리스트 만들기
+    - `Dic.items()`   : key, value 쌍 얻기
+    - `Dic.clear()`   : key: value 쌍 모두 지우기
+    - `Dic.get()`     : key로 value 얻기
+    - `key in Dic`    : 해당 key가 있는지 조사하기
 - 딕셔너리 추가, 수정, 병합, 삭제, 조사
 - 리스트와 딕셔너리 비교
 
@@ -164,4 +165,16 @@ True
 <br>
 
 # 6. Set
+- Set 생성
+    - `set0 = set()`    : 빈 집합
+        - `set0 = ()` : Tuple 형
+        - `set0 = {}` : Dic 형
+    - `set1 = {1,2,3,4}` : 기본적인 집합
+    - `n_tuple = (1,2,3,4)`\
+      `set2 = set(n_tuple)`
 
+- 교집합, 합집합, 차집합
+- 주요 함수
+    - `Set.add()`     : 값 1개 추가하기
+    - `Set.update()`  : 값 여러개 추가하기
+    - `Set.remove()`  : 특정 값 제거하기
