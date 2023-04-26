@@ -1,4 +1,4 @@
-# 2주차 Python 기초
+# Python 기초
 <p align="left">
     <a href="https://www.python.org">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png" alt="Python" height="100">
@@ -170,9 +170,10 @@ True
         - `set0 = ()` : Tuple 형
         - `set0 = {}` : Dic 형
     - `set1 = {1,2,3,4}` : 기본적인 집합
-    - `n_tuple = (1,2,3,4)`\
+    - `n_tuple = (1,2,3,4)` : 튜플로부터 집합\
       `set2 = set(n_tuple)`
-
+    - `n_list = [1,2,3,4]`  : 리스트로부터 집합\
+      `set3 = set(n_list)`
 - 교집합, 합집합, 차집합
 - 주요 함수
     - `Set.add()`     : 값 1개 추가하기
