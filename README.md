@@ -17,3 +17,10 @@ def removePuncuations(string) :
 
 !ipynb-py-convert a.py a.ipynb
 *이때 파일이름을 a로 변환해서 하면 편함*
+
+
+<br>
+
+!!유용!!
+`pandas_profiling`
+데이터에 대해 기본적인 분석 및 시각화를 전부 보여줌
