@@ -24,3 +24,10 @@ def removePuncuations(string) :
 !!유용!!
 `pandas_profiling`
 데이터에 대해 기본적인 분석 및 시각화를 전부 보여줌
+
+
+<br>
+
+!!참고!!
+python 정규표현식
+https://drive.google.com/file/d/1bbKnYkc3BtRQruYePhCxNipE7Ijlp8QH/view?usp=share_link
