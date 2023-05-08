@@ -37,7 +37,7 @@ https://drive.google.com/file/d/1bbKnYkc3BtRQruYePhCxNipE7Ijlp8QH/view?usp=share
 
 !!참고!!
 matplotlib 한글 폰트 깨질 때
-`from matplotlib import font_manager, rc
+```from matplotlib import font_manager, rc
 font_fname = 'C:/windows/fonts/HANBatang.ttf'
 font_name = font_manager.FontProperties(fname=font_fname).get_name()
-rc('font', family=font_name)`
+rc('font', family=font_name)```
