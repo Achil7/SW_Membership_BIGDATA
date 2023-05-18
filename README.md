@@ -55,4 +55,8 @@ font_fname = 'C:/windows/fonts/HANBatang.ttf'
 font_name = font_manager.FontProperties(fname=font_fname).get_name()
 rc('font', family=font_name)
 ```
+
+또는<br>
+https://koosco.tistory.com/38<br>
+참고
 --------------------------------------------------------------------------------------------------------------
