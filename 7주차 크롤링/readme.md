@@ -4,3 +4,5 @@ Python Scraping / Crawling
 
 정적 Chrome driver : https://wooiljeong.github.io/python/folium/
 (공공데이터포털)
+
+Youtube :: 데이터 분석) 파이썬을 이용한 서울시 이디야, 스타벅스 매장 위치 분석
