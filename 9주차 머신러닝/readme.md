@@ -3,8 +3,10 @@ __RocCurve 시각화__\
 
 --------------------------------------------------------------------------------------------
 
-__Python Confusion Matrix(오차행렬)__\
-`from pycm import *`\
+__Python Confusion Matrix(오차행렬)__
+```python
+from pycm import *
+```
 참고 : https://pypi.org/project/pycm/
 
 __GridSearchCV__\
