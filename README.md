@@ -55,6 +55,11 @@ font_fname = 'C:/windows/fonts/HANBatang.ttf'
 font_name = font_manager.FontProperties(fname=font_fname).get_name()
 rc('font', family=font_name)
 ```
+마이너스 폰트 깨질 때
+```python
+import matplotlib as mpl
+mpl.rcParams['axes.unicode_minus'] = False
+```
 
 또는<br>
 !!참고!!
