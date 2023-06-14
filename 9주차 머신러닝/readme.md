@@ -18,3 +18,35 @@ __GridSearchCV__\
 
 __성능 좋은 알고리즘 찾기(큰 틀)__\
 참고 : https://pycaret.gitbook.io/docs/get-started/quickstart
+
+--------------------------------------------------------------------------------------------
+
+__분류 모델의 평가 지표(Classification_report)__
+```python
+def evaluation_classifier(model):
+    y_train_pred = model.predict(x_train)
+    y_test_pred = model.predict(x_test)
+    
+    report_train = classification_report(y_train, y_train_pred, output_dict=True)
+    res_train = pd.DataFrame(report_train).T
+    
+    report_test = classification_report(y_test, y_test_pred, output_dict=True)
+    res_test = pd.DataFrame(report_test).T
+    display(res_train)
+    display(res_test)
+```
+
+--------------------------------------------------------------------------------------------
+
+__회귀 모델의 평가 지표(R², RMSE)__
+```python
+def evaluation_regressor(model):
+    y_train_pred = model.predict(x_train)
+    y_test_pred = model.predict(x_test)
+
+    print(f'Train set의 r2_score : {r2_score(y_train, y_train_pred)}')
+    print(f'Test set의 r2_score : {r2_score(y_test, y_test_pred)}')
+    
+    print(f'Train set의 RMSE : {np.sqrt(mean_squared_error(y_train, y_train_pred))}')
+    print(f'Test set의 RMSE : {np.sqrt(mean_squared_error(y_test, y_test_pred))}')
+```
