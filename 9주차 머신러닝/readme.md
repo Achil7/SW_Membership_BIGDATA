@@ -36,8 +36,6 @@ def evaluation_classifier(model):
     display(res_test)
 ```
 
---------------------------------------------------------------------------------------------
-
 __회귀 모델의 평가 지표(R², RMSE)__
 ```python
 def evaluation_regressor(model):
