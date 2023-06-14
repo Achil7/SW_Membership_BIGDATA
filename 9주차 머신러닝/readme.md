@@ -42,8 +42,8 @@ def evaluation_regressor(model):
     y_train_pred = model.predict(x_train)
     y_test_pred = model.predict(x_test)
 
-    print(f'Train set의 r2_score : {r2_score(y_train, y_train_pred)}')
-    print(f'Test set의 r2_score : {r2_score(y_test, y_test_pred)}')
+    print(f'Train set의 R² : {r2_score(y_train, y_train_pred)}')
+    print(f'Test set의 R² : {r2_score(y_test, y_test_pred)}')
     
     print(f'Train set의 RMSE : {np.sqrt(mean_squared_error(y_train, y_train_pred))}')
     print(f'Test set의 RMSE : {np.sqrt(mean_squared_error(y_test, y_test_pred))}')
