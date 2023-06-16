@@ -1,4 +1,3 @@
-
 scikit-learn과 같은 Python의 기계 학습 라이브러리에서 train_test_split 함수를 사용할 때 stratify 매개변수를 사용하여 대상 변수(Y)의 클래스 분포가 훈련 및 테스트 데이터 세트 모두에서 보존되도록 합니다.
 
 
