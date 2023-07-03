@@ -4,14 +4,15 @@
 
 <br>
 문자열 특수문자 전처리 사용자 정의 함수
+<br>
+
 ```python
-def removePuncuations(string) :
+def removePuncuations(string):
     punctuations = ['.', ',', '!', '?', ':', ';']
     for mark in punctuations:
         string = string.replace(mark, ' ')
     return string
 ```
-
 <br>
 
 --------------------------------------------------------------------------------------------------------------
