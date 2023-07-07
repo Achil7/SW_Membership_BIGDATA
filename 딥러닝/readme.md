@@ -1,4 +1,13 @@
-  # Tensorflow GPU 확인
+# 특정 GPU 사용
+
+```python
+# 아래전체 gpu 사용
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+```
+
+  
+# Tensorflow GPU 확인
 
 ```python
 import tensorflow as tf
@@ -11,7 +20,7 @@ print(device_lib.list_local_devices())
 tf.test.is_gpu_available()
 ```
 
-  # CPU vs GPU
+# CPU vs GPU
 ```python
 import time
 from sklearn.datasets import make_regression
@@ -51,11 +60,21 @@ print(model_test('xgb (gpu)', xgb))
 
 import torch
 print(torch.__version__)
-torch.cuda.is_available()
+USE_CUDA = torch.cuda.is_available()
+print(USE_CUDA)
+
+device = torch.device('cuda:0' if USE_CUDA else 'cpu')
+print('학습을 진행하는 기기:',device)
+
 ```
 
+# PyTorch는 GPU로 데이터와 모델을 전송해야 함
+
 ```python
-# 아래전체 gpu 사용
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+X_train = X_train.to(device)
+X_train.is_cuda # >> True
+###########################
+model = MyModel(args)
+model.to(device)
 ```
+
