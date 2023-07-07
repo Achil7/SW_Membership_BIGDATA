@@ -78,3 +78,10 @@ model = MyModel(args)
 model.to(device)
 ```
 
+gpu를 사용 할때는 연산량이 많은 곳에서 사용하면 된다\
+model compile 또는 loss 연산, 이미지 data read 등...\
+이때 .to(device) 를 붙여주면 gpu로 연산을 진행한다\
+Ex)
+```python
+x_test = mnist_test.test_data.view(-1, 28*28).float().to(device)
+```
