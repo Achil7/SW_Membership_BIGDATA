@@ -1,6 +1,7 @@
 디엠씨코넷_SW기업멤버십_빅데이터과정교육
 
 데이터 분석 참고 블로그 : https://zephyrus1111.tistory.com/
+<br>Latex 문법 : https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95
 
 <br>
 문자열 특수문자 전처리 사용자 정의 함수
